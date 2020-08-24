@@ -102,13 +102,17 @@ p {
   padding-top: 10%;
   padding-left: 75%;
 }
-
-.footerbox {
-  position: static;
-  margin-top: 570px;
+.footerbox{
+  margin: 1% auto 5%;
 }
+
 @media(max-width: 1252px){
   .respondsize{
   transform: translateY(50%);
   }
+}
+@media(max-width: 1262px){
+.footerbox{
+  transform: translateY(135px);
+}
 }
